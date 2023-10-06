@@ -1,0 +1,10 @@
+// program to add two numbers
+MVI A,02H
+MOV B,A
+MVI A,03H
+ADD B
+STA 2204H
+HLT
+(2200 ma 02
+2203 ma 03
+aani 2204 ma 5 aaunu paryo)
