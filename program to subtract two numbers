@@ -1,0 +1,11 @@
+// program to subtract two numbers 
+MVI A,03H
+MOV B,A
+MVI A,05H
+SUB B
+
+STA 2204H
+HLT
+(2200 ma 03
+2201 ma 05
+aani 2204 ma 02 aaunu pary0)
